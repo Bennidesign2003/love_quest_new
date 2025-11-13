@@ -35,10 +35,10 @@ export default function BeerClink({ onComplete }) {
           🍺
         </motion.div>
         <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-2">
-          Bier anstoßen!
+          Clink beer glasses!
         </h2>
         <p className="text-gray-600">
-          {clinks} / {TARGET_CLINKS} Prost!
+          {clinks} / {TARGET_CLINKS} Cheers!
         </p>
       </div>
 
@@ -128,7 +128,7 @@ export default function BeerClink({ onComplete }) {
           disabled={isClinking}
           className="bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white px-8 py-6 text-lg rounded-full shadow-lg"
         >
-          {isClinking ? '🍻 Prost!' : 'Anstoßen!'}
+          {isClinking ? '🍻 Cheers!' : 'Clink glasses!'}
         </Button>
       </div>
     </div>

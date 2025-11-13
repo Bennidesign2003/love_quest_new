@@ -86,7 +86,7 @@ export default function PolaroidScene({ scene, onNext }) {
           onClick={onNext}
           className="bg-gradient-to-r from-pink-500 to-red-500 hover:from-pink-600 hover:to-red-600 text-white px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 group"
         >
-          Weiter
+          Next
           <ChevronRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
         </Button>
       </motion.div>

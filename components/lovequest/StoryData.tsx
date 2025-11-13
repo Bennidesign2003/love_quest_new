@@ -491,7 +491,7 @@ const storyData = [
   },
   {
     type: "choice",
-    text: "Move in together? Shivam asks: “Will you live with me?”",
+    text: "Move in together? Not quite. But Shivam did move closer — just to be near her.",
     a: "Yes! Let's do it! 🏡💕",
     b: "Let's wait a little 🤔",
     background: "city",
@@ -507,8 +507,8 @@ const storyData = [
   {
     id: "move_together",
     type: "line",
-    text: "The key to a shared home. A new chapter begins. 🔑🏡",
-    background: "home",
+    text: "Not a shared home — but a home closer to her. A new chapter begins. 🔑🏡",
+    background: "home", 
     objects: [
       { id: 1, emoji: "🔑", x: 50, y: 40, animation: "spin" },
       { id: 2, emoji: "🏡", x: 50, y: 60, animation: "bounce" },
@@ -1048,22 +1048,22 @@ const storyData = [
     background: "bar"
   },
   {
-    type: "line",
-    text: "Level 30 – Unlocking forever.",
-    image1: "/images/image16.jpeg",
-    image2: "/images/image18.jpeg",
-    background: "sunset",
-    objects: [
-      { id: 1, emoji: "💍", x: 50, y: 50, animation: "spin" },
-      { id: 2, emoji: "💖", x: 35, y: 40, animation: "pulse" },
-      { id: 3, emoji: "💖", x: 65, y: 40, animation: "pulse" },
-      { id: 4, emoji: "✨", x: 50, y: 70, animation: "float" },
-      { id: 5, emoji: "🌅", x: 50, y: 25, animation: "pulse" }
-    ]
-  },
+  type: "line",
+  text: "Level 30 – Happy Birthday Shivam! Here's to celebrating all birthdays together and unlocking forever. 🎉❤️",
+  image1: "/images/image16.jpeg",
+  image2: "/images/image18.jpeg",
+  background: "sunset",
+  objects: [
+    { id: 1, emoji: "🎂", x: 50, y: 50, animation: "pulse" },
+    { id: 2, emoji: "🎉", x: 35, y: 40, animation: "spin" },
+    { id: 3, emoji: "🎉", x: 65, y: 40, animation: "spin" },
+    { id: 4, emoji: "✨", x: 50, y: 70, animation: "float" },
+    { id: 5, emoji: "🌅", x: 50, y: 25, animation: "pulse" }
+  ]
+},
   {
     type: "choice",
-    text: "Shivam kneels: “Will you marry me?”",
+    text: "text: Mansi kneels: “Will you marry me?",
     a: "YES! A thousand times yes! 💍💖",
     b: "Let me think… 🤔",
     background: "sunset",

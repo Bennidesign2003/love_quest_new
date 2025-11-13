@@ -79,12 +79,12 @@ export default function MemoryPairs({ onComplete }) {
           <Heart className="w-10 h-10 text-pink-500 fill-pink-500 animate-pulse" />
         </div>
         <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-2">
-          Memory Spiel
+          Memory Pair
         </h2>
-        <p className="text-gray-600">Züge: {moves}</p>
+        <p className="text-gray-600">Moves: {moves}</p>
         {matched.length > 0 && (
           <p className="text-sm text-pink-600 mt-1">
-            {matched.length / 2} / {cards.length / 2} Paare gefunden
+            {matched.length / 2} / {cards.length / 2} pairs found
           </p>
         )}
       </div>
@@ -141,7 +141,7 @@ export default function MemoryPairs({ onComplete }) {
           variant="outline"
           className="border-pink-300 text-pink-600 hover:bg-pink-50"
         >
-          Neu starten
+          Restart
         </Button>
       </div>
     </div>

@@ -134,21 +134,21 @@ export default function PickleballRally({ onComplete }) {
               {score >= TARGET_SCORE ? (
                 <>
                   <div className="text-5xl mb-3">🏆</div>
-                  <p className="text-xl font-bold text-green-600 mb-4">Gewonnen!</p>
+                  <p className="text-xl font-bold text-green-600 mb-4">You win!</p>
                 </>
               ) : score > 0 ? (
                 <>
                   <div className="text-5xl mb-3">😅</div>
-                  <p className="text-xl font-bold text-gray-700 mb-4">Noch ein Versuch!</p>
+                  <p className="text-xl font-bold text-gray-700 mb-4">Try again!</p>
                 </>
               ) : (
                 <>
                   <div className="text-5xl mb-3">🏓</div>
-                  <p className="text-lg text-gray-700 mb-4">Bewege den Schläger mit der Maus oder Finger</p>
+                  <p className="text-lg text-gray-700 mb-4">Move the paddle with your mouse or finger</p>
                 </>
               )}
               <Button onClick={startGame} className="bg-gradient-to-r from-pink-500 to-red-500 hover:from-pink-600 hover:to-red-600 text-white">
-                {score > 0 ? 'Nochmal' : 'Start'}
+                {score > 0 ? 'Try again' : 'Start'}
               </Button>
             </div>
           </div>

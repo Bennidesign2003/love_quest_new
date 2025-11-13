@@ -88,7 +88,7 @@ export default function EndScene({ scene, onRestart }) {
             className="space-y-4"
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-pink-500 via-red-500 to-pink-600 bg-clip-text text-transparent">
-              Level abgeschlossen!
+              Level completed!
             </h1>
             <p className="text-2xl md:text-3xl text-gray-800 font-medium leading-relaxed">
               {scene.text}
@@ -103,7 +103,7 @@ export default function EndScene({ scene, onRestart }) {
             className="inline-block bg-gradient-to-r from-pink-100 to-red-100 rounded-2xl px-8 py-4 border border-pink-200"
           >
             <p className="text-lg text-gray-700">
-              <span className="font-bold text-pink-600">30 Level</span> gemeistert
+              <span className="font-bold text-pink-600">30 levels</span> mastered
             </p>
           </motion.div>
 
@@ -119,7 +119,7 @@ export default function EndScene({ scene, onRestart }) {
               className="bg-gradient-to-r from-pink-500 to-red-500 hover:from-pink-600 hover:to-red-600 text-white px-10 py-7 text-xl rounded-full shadow-lg hover:shadow-xl transition-all duration-300 group"
             >
               <RotateCcw className="w-6 h-6 mr-3 group-hover:-rotate-180 transition-transform duration-500" />
-              Neu starten
+              Restart
             </Button>
           </motion.div>
 
@@ -130,7 +130,7 @@ export default function EndScene({ scene, onRestart }) {
             transition={{ delay: 1.2, duration: 0.6 }}
             className="text-gray-500 text-sm mt-8"
           >
-            Jede große Liebe ist eine Geschichte wert ✨
+            Every great love deserves a story ✨
           </motion.p>
         </div>
       </div>

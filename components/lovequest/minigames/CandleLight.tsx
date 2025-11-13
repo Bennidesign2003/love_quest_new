@@ -36,7 +36,7 @@ export default function CandleLight({ onComplete }) {
           🕯️
         </motion.div>
         <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
-          Zünde alle Kerzen an
+          Light all the candles
         </h2>
         <p className="text-pink-200">
           {litCandles.length} / {CANDLE_POSITIONS.length} angezündet
