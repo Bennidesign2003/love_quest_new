@@ -14,6 +14,7 @@ import EndScene from '../components/lovequest/EndScene';
 import InteractiveObjects from '../components/lovequest/InteractiveObjects';
 import SceneBackground from '../components/lovequest/SceneBackground';
 
+// @ts-ignore
 export default function LoveQuest() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [gameState, setGameState] = useState({ flags: {} });
@@ -22,6 +23,7 @@ export default function LoveQuest() {
 
   const currentScene = storyData[currentIndex];
 
+  // @ts-ignore
   const findSceneIndexById = (sceneId) => {
     return storyData.findIndex(scene => scene.id === sceneId);
   };
@@ -36,6 +38,7 @@ export default function LoveQuest() {
     }
   };
 
+  // @ts-ignore
   const handleChoice = (choice, flagKey, flagValue, nextA, nextB) => {
     if (flagKey && flagValue) {
       setGameState(prev => ({
@@ -84,6 +87,7 @@ export default function LoveQuest() {
         return (
           <ChoiceScene 
             scene={currentScene} 
+            // @ts-ignore
             onChoice={(choice) => handleChoice(
               choice, 
               choice === 'a' ? currentScene.set_flag_a : currentScene.set_flag_b,

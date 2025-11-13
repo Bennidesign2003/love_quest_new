@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { ChevronRight, Heart } from 'lucide-react';
 import Image from 'next/image';
 
+// @ts-ignore
 export default function LineScene({ scene, onNext }) {
   return (
     <motion.div

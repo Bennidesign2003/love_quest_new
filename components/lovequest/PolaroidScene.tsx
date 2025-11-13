@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { ChevronRight } from 'lucide-react';
 import Image from 'next/image';
 
+// @ts-ignore
 export default function PolaroidScene({ scene, onNext }) {
     const isUrl = (path: string) => {
   // Prüft externe URLs

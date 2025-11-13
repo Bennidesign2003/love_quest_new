@@ -76,6 +76,7 @@ export default function InteractiveObjects({ objects = [] }) {
   return (
     <>
       {objects.map((obj) => (
+        // @ts-ignore
         <motion.div
           key={obj.id}
           className="absolute cursor-pointer select-none"

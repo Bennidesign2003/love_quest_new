@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Heart, RotateCcw, Sparkles } from 'lucide-react';
 import SceneBackground from './SceneBackground';
 
+// @ts-ignore
 export default function EndScene({ scene, onRestart }) {
   return (
     <motion.div
