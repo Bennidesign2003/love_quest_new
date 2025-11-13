@@ -24,7 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             onClick={handlePlay}
             className="px-4 py-2 bg-pink-500 text-white rounded shadow-lg hover:bg-pink-600 transition"
           >
-            Lofi starten 🎵
+            Start Lofi 🎵
           </button>
         </div>
 

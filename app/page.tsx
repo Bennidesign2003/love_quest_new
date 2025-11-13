@@ -139,7 +139,7 @@ export default function LoveQuest() {
             className="bg-gradient-to-r from-pink-500 to-red-500 hover:from-pink-600 hover:to-red-600 text-white px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 group"
           >
             <Sparkles className="w-5 h-5 mr-2 group-hover:rotate-12 transition-transform" />
-            Geschichte beginnen
+            Let the story begin
           </Button>
         </motion.div>
       </div>
